@@ -1,7 +1,15 @@
 # desk-csat-test
 Simple test for Desk how to receive CSAT request
 
-Key is to add a HANDLER for receiving messages
+## Running with your SendBird information
+Change these values inside the ```index.js``` file:
+```
+var APP_ID = ""; // Your SendBird application ID
+var USER_ID = "deskcustomer"; // Any user_id for your customer creating tickets
+```
+
+## Understanding the code
+Key here is to add a HANDLER for receiving messages
 ```
     var channelHandler = new sb.ChannelHandler();
     channelHandler.onMessageReceived = (channel, message) => {
