@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.25.0",
     "sendbird": "^3.1.7",
     "sendbird-desk": "^1.0.20"
   }
